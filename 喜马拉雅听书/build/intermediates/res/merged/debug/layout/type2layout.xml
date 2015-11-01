@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageview_type2_image1"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="11dp" />
+
+            <LinearLayout
+                android:layout_width="251dp"
+                android:layout_height="62dp"
+                android:layout_marginLeft="11dp"
+                android:layout_marginTop="13dp"
+                android:layout_toRightOf="@id/imageview_type2_image1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textview_type2_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imageview_type2_image1"
+                    android:text="正确打开&lt;小王子>的5个姿势"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textview_type2_subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_toRightOf="@id/imageview_type2_image1"
+                    android:maxLines="1"
+                    android:text="小王子是一个超凡脱俗的仙童,他住在......"
+                    android:textColor="#9A9A9A"
+                    android:textSize="13dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/imageview_type2_image1"
+                        android:background="@drawable/search_album" />
+
+                    <TextView
+                        android:id="@+id/textview_type2_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_toRightOf="@id/imageview_type2_image1"
+                        android:gravity="right"
+                        android:text="5sfg"
+                        android:textColor="#9A9A9A"
+                        android:textSize="153dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Software/AndroidStudioProjects/MyApplication/喜马拉雅听书/src/main/res/layout/type2layout.xml -->

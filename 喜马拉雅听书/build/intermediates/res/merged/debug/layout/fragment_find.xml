@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearlayout_find_title"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#F4F4F4"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.leo.xmly.view.MyTextView
+            android:id="@+id/textview_find_recommend"
+            style="@style/findtextview_style"
+            android:layout_marginLeft="0dp"
+            android:text="推荐" />
+
+        <com.leo.xmly.view.MyTextView
+            android:id="@+id/textview_find_type"
+            style="@style/findtextview_style"
+            android:text="分类" />
+
+        <com.leo.xmly.view.MyTextView
+            android:id="@+id/textview_find_living"
+            style="@style/findtextview_style"
+            android:text="直播" />
+
+        <com.leo.xmly.view.MyTextView
+            android:id="@+id/textview_find_hotlist"
+            style="@style/findtextview_style"
+            android:text="榜单" />
+
+        <com.leo.xmly.view.MyTextView
+            android:id="@+id/textview_find_vip"
+            style="@style/findtextview_style"
+            android:text="主播" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_find_great"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout><!-- From: file:/C:/Software/AndroidStudioProjects/MyApplication/喜马拉雅听书/src/main/res/layout/fragment_find.xml -->

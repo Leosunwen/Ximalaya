@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listview_find_all"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#EEECE9"
+        android:dividerHeight="20px" />
+
+</LinearLayout><!-- From: file:/C:/Software/AndroidStudioProjects/MyApplication/喜马拉雅听书/src/main/res/layout/find.xml -->

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="224dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relative1_type1"
+        android:layout_width="match_parent"
+        android:layout_height="44dp" >
+
+        <ImageView
+            android:id="@+id/imageview_type1_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:background="@drawable/finding_title_tag" />
+
+        <TextView
+            android:id="@+id/textview_type1_title1"
+            android:layout_width="290dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/imageview_type1_left"
+            android:gravity="center_vertical"
+            android:text="XBTJ"
+            android:textColor="#999999" />
+
+        <TextView
+            android:id="@+id/textview_type1_more"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:gravity="center_vertical"
+            android:text="更多"
+            android:textColor="#999999" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="11dp"
+            android:background="@drawable/live_more" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_type1"
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:layout_marginLeft="11dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/linear1_type1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageview_type1_a"
+                android:layout_width="107dp"
+                android:layout_height="3dp"
+                android:background="@drawable/album_img_edge" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/imageview_type1_img1"
+                    android:layout_width="107dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/recommend_album_default" />
+
+                <ImageView
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="94dp"
+                    android:background="@drawable/registe_welcome_msg_bg" />
+
+                <TextView
+                    android:id="@+id/textview_type1_t1"
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="93dp"
+                    android:maxLines="1"
+                    android:text="刘森的一首高歌"
+                    android:textColor="#ffffff"
+                    android:textSize="12dp" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textview_type1_trackTitle1"
+                android:layout_width="107dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="10dp"
+                android:lines="2"
+                android:text="在你还不知道的地方,爱着你"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear2_type1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageview_type1_b"
+                android:layout_width="107dp"
+                android:layout_height="3dp"
+                android:background="@drawable/album_img_edge" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/imageview_type1_img2"
+                    android:layout_width="107dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/recommend_album_default" />
+
+                <ImageView
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="94dp"
+                    android:background="@drawable/registe_welcome_msg_bg" />
+
+                <TextView
+                    android:id="@+id/textview_type1_t2"
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="93dp"
+                    android:maxLines="1"
+                    android:text="刘森的一首高歌"
+                    android:textColor="#ffffff"
+                    android:textSize="12dp" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textview_type1_trackTitle2"
+                android:layout_width="107dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="10dp"
+                android:lines="2"
+                android:text="在你还不知道的地方,爱着你"
+                android:textSize="15dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear3_type1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageview_type1_c"
+                android:layout_width="107dp"
+                android:layout_height="3dp"
+                android:background="@drawable/album_img_edge" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/imageview_type1_img3"
+                    android:layout_width="107dp"
+                    android:layout_height="107dp"
+                    android:background="@drawable/recommend_album_default" />
+
+                <ImageView
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="94dp"
+                    android:background="@drawable/registe_welcome_msg_bg" />
+
+                <TextView
+                    android:id="@+id/textview_type1_t3"
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="93dp"
+                    android:maxLines="1"
+                    android:text="刘森的一首高歌"
+                    android:textColor="#ffffff"
+                    android:textSize="12dp" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/textview_type1_trackTitle3"
+                android:layout_width="107dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="10dp"
+                android:lines="2"
+                android:text="在你还不知道的地方,爱着你"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

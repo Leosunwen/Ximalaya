@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relative1_type2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" >
+
+        <ImageView
+            android:id="@+id/imageview_type2_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:background="@drawable/finding_title_tag" />
+
+        <TextView
+            android:id="@+id/textview_type2_title1"
+            android:layout_width="290dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/imageview_type2_right"
+            android:gravity="center_vertical"
+            android:text="JPTD"
+            android:textColor="#999999" />
+
+        <TextView
+            android:id="@+id/textview_type2_more"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:gravity="center_vertical"
+            android:text="更多"
+            android:textColor="#999999" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="11dp"
+            android:background="@drawable/live_more" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview_changitem2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout><!-- From: file:/C:/Software/AndroidStudioProjects/MyApplication/喜马拉雅听书/src/main/res/layout/type2listview.xml -->

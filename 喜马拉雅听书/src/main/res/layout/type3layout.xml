@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageview_type3_image1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="11dp" />
+
+            <LinearLayout
+                android:layout_width="251dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="11dp"
+                android:layout_toRightOf="@id/imageview_type3_image1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textview_type3_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/imageview_type3_image1"
+                    android:text="正确打开&lt;小王子>的5个姿势"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textview_type3_subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_toRightOf="@id/imageview_type3_image1"
+                    android:maxLines="1"
+                    android:text="小王子是一个超凡脱俗的仙童,他住在......"
+                    android:textColor="#9A9A9A"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="11dp"
+                android:background="@drawable/live_more" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

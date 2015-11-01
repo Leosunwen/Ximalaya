@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relative1_type3"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" >
+
+        <ImageView
+            android:id="@+id/imageview_type3_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:background="@drawable/finding_title_tag" />
+
+        <TextView
+            android:id="@+id/textview_type3_title1"
+            android:layout_width="290dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/imageview_type3_right"
+            android:gravity="center_vertical"
+            android:text="TXX"
+            android:textColor="#999999" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview_changitem3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout><!-- From: file:/C:/Software/AndroidStudioProjects/MyApplication/喜马拉雅听书/src/main/res/layout/type3listview.xml -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearlayout_custom_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#F4F4F4"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.leo.xmly.view.MyTextView
+            android:id="@+id/textview_custom_recommend"
+            style="@style/customtextview_style"
+            android:layout_marginLeft="0dp"
+            android:text="专辑" />
+
+        <com.leo.xmly.view.MyTextView
+            android:id="@+id/textview_custom_type"
+            style="@style/customtextview_style"
+            android:text="声音" />
+
+        <com.leo.xmly.view.MyTextView
+            android:id="@+id/textview_custom_living"
+            style="@style/customtextview_style"
+            android:text="下载中" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_custom_great"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout><!-- From: file:/C:/Software/AndroidStudioProjects/MyApplication/喜马拉雅听书/src/main/res/layout/fragment_download.xml -->
